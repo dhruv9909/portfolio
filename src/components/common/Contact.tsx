@@ -20,9 +20,9 @@ function Contact() {
                     </p>
                     <div className="grid md:grid-cols-3 gap-8 mb-12">
                         {[
-                            { Icon: Mail, title: 'Email', content: 'your.email@example.com' },
-                            { Icon: Github, title: 'GitHub', content: 'github.com/yourusername' },
-                            { Icon: Linkedin, title: 'LinkedIn', content: 'linkedin.com/in/yourprofile' }
+                            { Icon: Mail, title: 'Email', content: 'dhruvsachdeva951@gmail.com' },
+                            { Icon: Github, title: 'GitHub', content: 'github.com/dhruv9909' },
+                            { Icon: Linkedin, title: 'LinkedIn', content: 'linkedin.com/in/' }
                         ].map((item, index) => (
                             <motion.div
                                 key={item.title}
@@ -56,7 +56,7 @@ function Contact() {
                     </div>
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                         <Button size="lg" className="gap-2 shadow-lg hover:shadow-xl transition-shadow">
-                            <Mail className="h-4 w-4" />
+                            <Mail to="dhruvsachdeva951@gmail.com" className="h-4 w-4" />
                             Send Message
                         </Button>
                     </motion.div>

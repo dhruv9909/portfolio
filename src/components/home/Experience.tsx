@@ -9,17 +9,17 @@ function Experience() {
     const experience = [
         {
             role: 'Frontend Developer',
-            company: 'IT Company',
+            company: 'E Software Solutions',
             period: '4 months (Current)',
             type: 'Full-time',
             description: 'Working on complex web applications using React.js and Next.js. Contributing to UI/UX improvements and implementing responsive designs.'
         },
         {
-            role: 'Frontend Developer Intern',
-            company: 'IT Company',
+            role: 'MERN Stack Developer Intern',
+            company: 'Spineor Web Services',
             period: '4 months',
             type: 'Internship',
-            description: 'Gained hands-on experience in modern frontend development. Built responsive web components and collaborated with senior developers.'
+            description: 'Gained hands-on experience in modern development. Built responsive components and worked on full-stack features.'
         }
     ];
 
@@ -34,7 +34,7 @@ function Experience() {
                 >
                     <h2 className="text-3xl md:text-4xl mb-6">Experience</h2>
                     <p className="text-muted-foreground mb-12">
-                        My professional journey in frontend development
+                        My professional journey in Development
                     </p>
                     <div className="space-y-8">
                         {experience.map((exp, index) => (

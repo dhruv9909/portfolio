@@ -6,7 +6,7 @@ function Skills() {
     
   const skills = [
     'HTML5', 'CSS3', 'JavaScript', 'React.js', 'Next.js', 
-    'Tailwind CSS', 'TypeScript', 'Git', 'Responsive Design', 'UI/UX Design'
+    'Tailwind CSS', 'TypeScript', 'Git', 'Responsive Design', 'Node.js'
   ];
 
   return (
@@ -35,7 +35,7 @@ function Skills() {
                     boxShadow: "0 10px 25px rgba(0,0,0,0.1)",
                   }}
                 >
-                  <Badge variant="secondary" className="p-3 text-sm hover:shadow-lg transition-shadow">
+                  <Badge variant="secondary" className="max-w-34 w-full p-3 text-sm hover:shadow-lg transition-shadow">
                     {skill}
                   </Badge>
                 </motion.div>
